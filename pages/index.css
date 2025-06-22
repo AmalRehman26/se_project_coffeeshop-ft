@@ -275,6 +275,8 @@ input::placeholder {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
 }
 
@@ -376,6 +378,42 @@ input::placeholder {
   height: 1px;
   flex-grow: 1;
   margin: 0 10px;
+}
+
+.about {
+  background-color: #0a2850;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+  padding: 100px 0 0 80px;
+  max-width: 251px;
+}
+
+.about__content {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  max-width: 660px;
+  padding: 119px 80px 173px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .footer {
