@@ -13,4 +13,4 @@ This is the second project of the fulltime Software Engineering program at Tripl
 
 ## Plan on improving the project
 
-Add your ideas here :)
+We could challenege ourselves by adding a dark mode feature on the website.
